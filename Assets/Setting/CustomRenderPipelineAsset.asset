@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f4b1ffa46be42089ed933dc8ed98bb, type: 3}
+  m_Name: CustomRenderPipelineAsset
+  m_EditorClassIdentifier: 
+  postFXSettings: {fileID: 11400000, guid: 0edff97624e574ed6bdc0c0f89b8c154, type: 2}
+  Settings:
+    allowHDR: 1
+    ShadowConfig:
+      ShadowTextureSize: 1024
+      MaxDistance: 20
+      ShadowDistanceFade: 0.127
+      CascadeFade: 0.26
+      ShadowNearPlane: 0
+      shadowCascades: 4
+      CascadeRatiosLevel1: 0.071
+      CascadeRatiosLevel2: 0.205
+      CascadeRatiosLevel3: 0.416
+      cascadeBlend: 2
+      CascadeDebug: 0
+      Filter: 3
+      UseShadowMask: 1
